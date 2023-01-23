@@ -24,7 +24,7 @@ public class Card {
         suit = SUITS[index];
         return suit;
     }
-
+//  l
     /**
      * @param suit the suit to set
      */
