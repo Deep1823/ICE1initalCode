@@ -13,15 +13,14 @@ package exercise1;
 public class Card {
 
    private String suit; //clubs, spades, diamonds, hearts
-   private int value = (int)(Math.floor(Math.random()*13)+1);//1-13 gives any random number form 1-13
-   final int index = (int)(Math.floor(Math.random()*3));
+   private int value;//1-13 gives any random number form 1-13
+ 
 
    public static final String [] SUITS = {"Hearts", "Diamonds", "Spades", "Clubs"};
     /**
      * @return the suit
      */
     public String getSuit() {
-        suit = SUITS[index];
         return suit;
     }
 
@@ -45,5 +44,5 @@ public class Card {
     public void setValue(int value) {
         this.value = value;
     }
-   // juust to see the changes
+   // juust to see the changes form the pull request
 }
