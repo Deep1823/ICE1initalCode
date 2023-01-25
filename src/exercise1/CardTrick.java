@@ -40,9 +40,6 @@ public class CardTrick {
            if(hand[i].getValue() == value && hand[i].getSuit().equalsIgnoreCase(suit)){
                printInfo();
            }
-           else{
-              System.out.println("No cards match");
-           }
            
         }
 
