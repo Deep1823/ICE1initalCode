@@ -65,6 +65,11 @@ public class CardTrick {
     private static void printInfo() {
     
         System.out.println("Congratulations, you guessed right!");
+        
+        System.out.println("Name: Deepkumar Patel");
+        System.out.println("Student Id: 991673550");
+        System.out.println("Prof: Sviagama");
+        System.out.println("Hobbies: Cycling");
 
         
     
